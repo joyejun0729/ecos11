@@ -1,0 +1,28 @@
+{
+  "entities": {
+    "FeedbackPost": {
+      "title": "FeedbackPost",
+      "description": "User opinions and feedback on the board",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "author": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "content",
+        "createdAt"
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "학교 분리수거 AI 도우미 (School EcoSort)",
+  "description": "스마트 카메라 제품 스캔으로 학교 및 일상 속 쓰레기의 재질별 분리배출 방법, 학교 수거함 위치 가이드 및 탄소절감 리포트 제공",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
